@@ -1,0 +1,19 @@
+{
+    "name": "craftlantic/webhook",
+    "authors": [
+        {
+            "name": "zaynzzz",
+            "email": "89463457+zaynzzz@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "twilio/sdk": "^7.11",
+        "phpseclib/phpseclib": "^3.0",
+        "thiagoalessio/tesseract_ocr": "^2.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "phpseclib\\": "vendor/phpseclib/phpseclib/phpseclib/"
+        }
+    }
+}
